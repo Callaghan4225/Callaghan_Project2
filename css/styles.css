@@ -1,0 +1,230 @@
+body {
+    font-family: 'Proxima Nova';
+    background-color: #ffffff;
+    position: relative;
+    margin: 0px;
+    font-size: 12px;
+    padding: 0px;
+}
+
+/* HOMEPAGE */
+.in_historic_logo 
+{
+    width: 500px;
+    height: 320px;
+    background: url("../images/homepage/indiana_bw_500.jpg") no-repeat;
+    display: inline-block;
+}
+
+.in_historic_logo:hover {
+        background: url("../images/homepage/indiana_500.jpg") no-repeat;
+  }
+
+.in_haunted_logo 
+{
+    width: 500px;
+    height: 320px;
+    background: url("../images/homepage/indiana_bw_haunted_500.jpg") no-repeat;
+    display: inline-block;
+}
+
+.in_haunted_logo:hover {
+        background: url("../images/homepage/indiana_haunted_500.jpg") no-repeat;
+  }
+
+
+/* HISTORIC */
+.in_historic_map {
+    background: url("../images/historic_loc/Indiana_Map_Historic_final.jpg") no-repeat;
+    display: inline-block;
+}
+
+.historic1 {
+    position: absolute;
+    width: 600px;
+    height: 420px;
+    background: url("../images/homepage/blank.jpg") no-repeat;
+    display: inline-block;
+}
+
+.historic1:hover {
+        background: url("../images/historic_loc/D_Tippecanoe_W Laffyette.jpg") no-repeat;
+        position:absolute;
+        top: 20px;
+        left: 0px;
+        width: 250px;
+        z-index:1000;
+    }
+
+.historic2 {
+    position: absolute;
+    width: 600px;
+    height: 420px;
+    background: url("../images/homepage/blank.jpg") no-repeat;
+    display: inline-block;
+}
+
+    .historic2:hover {
+        background: url("../images/historic_loc/A_Benjamin_harrison_Indy.jpg") no-repeat;
+        position: absolute;
+        top: 60px;
+        left: 70px;
+        width: 250px;
+        z-index: 1000;
+    }
+
+
+.historic3 {
+    position: absolute;
+    width: 600px;
+    height: 420px;
+    background: url("../images/homepage/blank.jpg") no-repeat;
+    display: inline-block;
+}
+
+    .historic3:hover {
+        background: url("../images/historic_loc/E_WilburWright_Haggerstown.jpg") no-repeat;
+        position: absolute;
+        top: 60px;
+        left: 290px;
+        width: 250px;
+        z-index: 1000;
+    }
+
+
+.historic4 {
+    position: absolute;
+    width: 600px;
+    height: 420px;
+    background: url("../images/homepage/blank.jpg") no-repeat;
+    display: inline-block;
+}
+
+    .historic4:hover {
+        background: url("../images/historic_loc/C_LincolnHome_Lincoln.jpg") no-repeat;
+        top: 370px;
+        left: 0px;
+        width: 250px;
+        z-index: 1000;
+    }
+
+
+.historic5 {
+    position: absolute;
+    width: 600px;
+    height: 420px;
+    background: url("../images/homepage/blank.jpg") no-repeat;
+    display: inline-block;
+}
+
+    .historic5:hover {
+        background: url("../images/historic_loc/B_CulbertsonMansion_NewAlbany.jpg") no-repeat;
+        top: 330px;
+        left: 190px;
+        width: 250px;
+        z-index: 1000;
+    }
+
+
+
+/* HAUNTED */
+.in_haunted_map 
+{
+    width: 800px;
+    height: 820px;
+    background: url("../images/haunted_loc/Indiana_Map_Haunted_final.jpg") no-repeat;
+    display: inline-block;
+}
+
+
+.haunted1 {
+    position: absolute;
+    width: 600px;
+    height: 420px;
+    background: url("../images/homepage/blank.jpg") no-repeat;
+    display: inline-block;
+}
+
+    .haunted1:hover {
+        background: url("../images/haunted_loc/4StMarys_ND.jpg") no-repeat;
+        top: 10px;
+        left: 50px;
+        width: 250px;
+        z-index: 1000;
+    }
+
+.haunted2 {
+    position: absolute;
+    width: 600px;
+    height: 420px;
+    background: url("../images/homepage/blank.jpg") no-repeat;
+    display: inline-block;
+}
+
+    .haunted2:hover {
+        background: url("../images/haunted_loc/3RoadsHotel_Atlanta.jpg") no-repeat;
+        top: 70px;
+        left: 150px;
+        width: 250px;
+        z-index: 1000;
+    }
+
+
+.haunted3 {
+    position: absolute;
+    width: 600px;
+    height: 420px;
+    background: url("../images/homepage/blank.jpg") no-repeat;
+    display: inline-block;
+}
+
+    .haunted3:hover {
+        background: url("../images/haunted_loc/2FinchCemetery_Portland.jpg") no-repeat;
+        top: 40px;
+        left: 300px;
+        width: 250px;
+        z-index: 1000;
+    }
+
+
+.haunted4 {
+    position: absolute;
+    width: 600px;
+    height: 420px;
+    background: url("../images/homepage/blank.jpg") no-repeat;
+    display: inline-block;
+}
+
+    .haunted4:hover {
+        background: url("../images/haunted_loc/1AvonHauntedBridgepsd_Avon.jpg") no-repeat;
+        top: 100px;
+        left: 50px;
+        width: 250px;
+        z-index: 1000;
+    }
+
+
+.haunted5 {
+    position: absolute;
+    width: 600px;
+    height: 420px;
+    background: url("../images/homepage/blank.jpg") no-repeat;
+    display: inline-block;
+}
+
+    .haunted5:hover {
+        background: url("../images/haunted_loc/5ZionChurch_Poland.jpg") no-repeat;
+        top: 170px;
+        left: 0px;
+        width: 250px;
+        z-index: 1000;
+    }
+
+
+/* PLAYER */
+.player {
+    position: absolute;
+    left: 250px;
+    top: 150px;
+    opacity: 35%;
+}
